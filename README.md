@@ -16,9 +16,15 @@ The dataset consists of an index number, the tweet, and a classification as depr
 
 I create a word cloud for tweets written by clinically depressed individuals, which features words including depression, worthless, anti, anxiety, and functioning.  I apply topic modeling over the depressed tweets. Most tweets relate to the experience of depression (1741). Smaller topics included those with lots of emojis, talk about preventing depression, or things that were related to depression. 
 
+![picture](https://github.com/kstrickland680/DepressionSentimentalAnalysis/blob/main/images/depressionwordcloud.JPG)
+
+
 ## Sentiment Analysis 
 
 Clinically depressed indviduals posted more negative tweets, less positive tweets, and slightly less neutral tweets than non-depressed individuals. 
+
+![picture](https://github.com/kstrickland680/DepressionSentimentalAnalysis/blob/main/images)
+
 
 ## Model
 
