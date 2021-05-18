@@ -23,7 +23,7 @@ I create a word cloud for tweets written by clinically depressed individuals, wh
 
 Clinically depressed indviduals posted more negative tweets, less positive tweets, and slightly less neutral tweets than non-depressed individuals. 
 
-![picture](https://github.com/kstrickland680/DepressionSentimentalAnalysis/blob/main/images)
+![picture](https://github.com/kstrickland680/DepressionSentimentalAnalysis/blob/main/images/SentimentAnalysis.JPG)
 
 
 ## Model
