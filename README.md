@@ -34,6 +34,13 @@ I import data from Twitter to test the model against. I import the most recent 2
 
 I select a random amount of the tweets to look at, and look at the totals for those classified as depressed or not depressed. The model classifies most data with the word 'depressed' or 'depression' in it as from a clinically depressed individual. It struggles to recognize informational or positive posts as well as exaggeration.
 
+### Model Refinement 
+
+Given that the model did not perform as well as I'd like on newly sourced data, I refine the model again. I create a new class that stands for "not enough information". I do this by scrambling the order of words in the depressed tweets, to teach the model that the word 'depression' alone is not enough for a tweet to be classified as depressed.
+
+I create 3 more versions of the model. I explore early stopping, adding dropout layers, class weights, and changing various paramaters in order to avoid overfitting and better train the model. I decide on Model 3 as the final model due to it's high recall and f1 score for depressed data, even though it does not identify any tweets as "not enough information". I want the model to catch as many depressed cases as possible. Even though this model does not classify any tweets as "not enough information", it overfits less than the orginal model does. I then apply this model and another model to the data sourced from twitter. It performs better than the first model, but does continue to struggle to correctly classify informational, positive, and exagerrated tweets.
+
+
 ## Conclusions
 
 Analyzing social media data could help identify individuals who are unable or not willing to talk to professionals about their emotions. Many individuals share their emotions on social media regarding depression.  
@@ -48,6 +55,6 @@ Analyzing social media data could help identify individuals who are unable or no
 ### Future Work
 
 - create a model that codes tweets for depression criteria
-- a model that does better at seeing the difference between informational tweets about depression and depressed tweets - perhaps by classifying tweets 3 ways, depressed, not depressed, information about depression.  Another method with the current dataset would be to scramble the sentences from the depressed set, and label those scrambled versions as "not enough information." 
+- a model that does better at seeing the difference between informational tweets about depression and depressed tweets - perhaps by classifying tweets 3 ways, depressed, not depressed, information about depression.
 - possibly creating a bot that could reach out to individuals seen as at-risk of depression 
 - a model that flags suicidal comments or classifies risk 
