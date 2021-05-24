@@ -47,10 +47,9 @@ Analyzing social media data could help identify individuals who are unable or no
 
 ### Business Recommendations
 
-*   Pay attention to tweets that talk about feeling depressed -- People who say they're feeling depressed likely are.  
-*   Increase social media presence.  Make informational or postive posts about depression.  
-*   Pay attention to tweets talking about feeling worthless or hurting. 
-*   Use how individuals talk about their experiences on social media to inform how you talk to people about depression. 
+-   Respond to users who say they're feeling depressed, worthless, or hurting with empathetic responses, informative posts, and advertisements about the benefits of counseling or this agency.
+-   Increase social media presence. Make informational or positive posts about depression and counseling.
+-   Use how individuals talk about their depression experiences on social media to inform how you talk to people about depression.
 
 ### Future Work
 
